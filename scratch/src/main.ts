@@ -6,6 +6,15 @@
 // - Its there and you don't have to be a genius to understand these things
 
 
+// Course hook
+// if const a= [] isn't an array then what is it? 
+// array => contiguous memory space 
+// (0101010100101010)
+// [                ]
+// 0 -------------> N
+// 
+
+
 
 // Time and Space Complexity
 
@@ -20,7 +29,7 @@
 
 // Most Important Concepts
 // 1. Growth is with respect to input
-// 2. Constants are dropped
+// 2. Constants are dropped (because the difference between 2n and n^2 is neglible, we're interested in "the shape")
 // 3. Worst case is usually the way we measure 
 
 
@@ -60,3 +69,11 @@
 // *** It is good to be able to explain these things in your own words,
 // *** fluently, on a whiteboard :D 
 
+
+
+// Linked Lists
+
+// "Lists without indices"
+// -> each item in the list has a reference to the next item (singly) or previous item (doubly)
+
+// 
